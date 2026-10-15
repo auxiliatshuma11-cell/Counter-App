@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.counter-card {
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: darkblue;
+}
+
+p {
+    color:darkblue;
+}
+
+h2 {
+    font-size: 60px;
+    color: blue;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+#increase {
+    background-color: green;
+    color: white;
+}
+
+#reset {
+    background-color: red;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
